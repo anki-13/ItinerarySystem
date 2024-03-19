@@ -137,6 +137,17 @@
   background-color: #AA00FF;
 }
 
+.cancel-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .icon-hotel {
   color: #FFDE03;
 }
