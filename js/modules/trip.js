@@ -1,4 +1,4 @@
-import * as map from "./Map.js";
+import * as map from "./map.js";
 import { elements } from "./elements.js";
 
 export default class Trip {
