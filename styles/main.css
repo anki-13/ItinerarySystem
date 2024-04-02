@@ -1,140 +1,98 @@
 .btn {
   padding: .5rem 1rem;
-  border: 0.15rem #616161 solid;
+  border: 0.15rem #e8f2ed solid;
   border-radius: 6px;
-  color: #616161;
+  color: #000b01;
 }
 
 .btn-blue:hover {
   color: #ffffff;
-  border: 0.15rem #0336FF solid;
-  background-color: #0336FF;
+  border: 0.15rem #383e57 solid;
+  background-color: #363d5a;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-blue:hover i {
-  color: #ffffff;
-  background-color: #0336FF;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-blue.selected {
   color: #ffffff;
-  border: 0.15rem #0336FF solid;
-  background-color: #0336FF;
+  border: 0.15rem #2c3351 solid;
+  background-color: #333b5f;
 }
 
 .btn-yellow:hover {
   color: #ffffff;
-  border: 0.15rem #FFDE03 solid;
-  background-color: #FFDE03;
+  border: 0.15rem #bbaf6c solid;
+  background-color: #bbaf6c;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-yellow:hover i {
-  color: #ffffff;
-  background-color: #FFDE03;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-yellow.selected {
   color: #ffffff;
-  border: 0.15rem #FFDE03 solid;
-  background-color: #FFDE03;
+  border: 0.15rem #bbaf6c solid;
+  background-color: #bbaf6c;
 }
 
 .btn-green:hover {
   color: #ffffff;
-  border: 0.15rem #00BFA5 solid;
-  background-color: #00BFA5;
+  border: 0.15rem #56857f solid;
+  background-color: #56857f;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-green:hover i {
-  color: #ffffff;
-  background-color: #00BFA5;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-green.selected {
   color: #ffffff;
-  border: 0.15rem #00BFA5 solid;
-  background-color: #00BFA5;
+  border: 0.15rem #56857f solid;
+  background-color: #56857f;
 }
 
 .btn-pink:hover {
   color: #ffffff;
-  border: 0.15rem #FF0266 solid;
-  background-color: #FF0266;
+  border: 0.15rem #7e5163 solid;
+  background-color: #7e5163;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-pink:hover i {
-  color: #ffffff;
-  background-color: #FF0266;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-pink.selected {
   color: #ffffff;
-  border: 0.15rem #FF0266 solid;
-  background-color: #FF0266;
+  border: 0.15rem #7e5163 solid;
+  background-color: #7e5163;
 }
 
 .btn-orange:hover {
   color: #ffffff;
-  border: 0.15rem #FF6D00 solid;
-  background-color: #FF6D00;
+  border: 0.15rem #7e6049 solid;
+  background-color: #7e6049;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-orange:hover i {
-  color: #ffffff;
-  background-color: #FF6D00;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-orange.selected {
   color: #ffffff;
-  border: 0.15rem #FF6D00 solid;
-  background-color: #FF6D00;
+  border: 0.15rem #7e6049 solid;
+  background-color: #7e6049;
 }
 
 .btn-purple:hover {
   color: #ffffff;
-  border: 0.15rem #AA00FF solid;
-  background-color: #AA00FF;
+  border: 0.15rem #9067a4 solid;
+  background-color: #9067a4;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-purple:hover i {
-  color: #ffffff;
-  background-color: #AA00FF;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .btn-purple.selected {
   color: #ffffff;
-  border: 0.15rem #AA00FF solid;
-  background-color: #AA00FF;
+  border: 0.15rem #9067a4 solid;
+  background-color: #9067a4;
 }
 
 .cancel-btn {
@@ -146,72 +104,6 @@
   color: white;
   font-size: 24px;
   cursor: pointer;
-}
-
-.icon-hotel {
-  color: #FFDE03;
-}
-
-.icon-hotel .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #FFDE03;
-  border-radius: 50%;
-}
-
-.icon-see {
-  color: #0336FF;
-}
-
-.icon-see .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #0336FF;
-  border-radius: 50%;
-}
-
-.icon-mall {
-  color: #00BFA5;
-}
-
-.icon-mall .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #00BFA5;
-  border-radius: 50%;
-}
-
-.icon-dining {
-  color: #FF6D00;
-}
-
-.icon-dining .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #FF6D00;
-  border-radius: 50%;
-}
-
-.icon-cafe {
-  color: #AA00FF;
-}
-
-.icon-cafe .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #AA00FF;
-  border-radius: 50%;
-}
-
-.icon-bar {
-  color: #FF0266;
-}
-
-.icon-bar .material-icons {
-  font-size: 1.8rem;
-  padding: .3rem;
-  border: 0.2rem solid #FF0266;
-  border-radius: 50%;
 }
 
 .modal {
@@ -226,8 +118,8 @@
 }
 
 .modal-content {
-  background: #eeaeca;
-  background: linear-gradient(70deg, #eeaeca 0%, #94bbe9 100%);
+  background: #aedeee;
+  background: linear-gradient(70deg, #aeddee 0%, #94bbe9 100%);
   position: relative;
   margin: 15% auto;
   width: 40%;
@@ -256,16 +148,15 @@
 }
 
 #init-form {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding: 2rem;
   width: 45%;
 }
 
 #init-form label {
   display: block;
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   color: #191924;
-  text-transform: uppercase;
 }
 
 #init-form input {
@@ -442,7 +333,8 @@
 }
 
 #apply-filter {
-  color: #FF0266;
+  color: #616161;
+;
 }
 
 #apply-filter:hover, #apply-filter:active {
@@ -906,32 +798,6 @@ header {
   background-color: #FF0266;
 }
 
-.weather {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.weather span {
-  font-size: 1.4rem;
-  color: #ffffff;
-}
-
-.weather img {
-  width: 5rem;
-  height: 5rem;
-}
-
 .planner-list {
   width: 100%;
   min-height: 15rem;
@@ -1099,4 +965,3 @@ body, html {
 p {
   margin: 0;
 }
-/*# sourceMappingURL=main.css.map */
