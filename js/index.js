@@ -1,6 +1,6 @@
 import { elements } from "./modules/elements.js";
-import * as map from "./modules/Map.js";
-import * as planner from "./modules/Planner.js";
+import * as map from "./modules/map.js";
+import * as planner from "./modules/planner.js";
 import TripAdapter from "./modules/tripAdapter.js";
 
 export const PLACE_TYPES = {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   showItem(elements.initModal);
   hideItem(elements.itineraryContainer);
   showItem(elements.initContentContainer);
-  tripAdapter.fetchTrips();
+
 });
 
 document.addEventListener("click", (e) => {
@@ -36,6 +36,7 @@ document.addEventListener("click", (e) => {
     showItem(elements.initModal);
     hideItem(elements.initContentContainer);
     showItem(elements.itineraryContainer);
+    tripAdapter.fetchTrips();
   }
 });
 
