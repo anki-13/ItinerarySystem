@@ -8,7 +8,7 @@ export default class TripAdapter {
   trips = [];
 
   constructor() {
-      this.baseUrl = "http://localhost:3000";
+      this.baseUrl = "http://localhost:3000/trips";
   }
 
   fetchTrips() {
