@@ -8,11 +8,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.css">
 
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=(APIKEY)&libraries=places"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=(API_KEY)&libraries=places"></script>
   <script type="module" src="./js/index.js"></script>
+  
 
   <title>Trip Planner</title>
-  
+
+
 </head>
 
 <body>
@@ -28,7 +30,6 @@
           <div class="input-city-container">
             <label for="input-city">City: </label>
             <input type="text" name="input-city" id="input-city" required>
-            <button id="microphone-btn" class="microphone-btn">&#127908;</button>
           </div>
           <div class="input-date-container">
             <label for="start-date">From: </label>
@@ -48,7 +49,12 @@
   </section>
 
   <main class="main-container">
-
+    <div class="chat-mic-container">
+      <div class="chatbox-container">
+        <!-- User input messages will be appended here -->
+      </div>
+      <button class="microphone-btn2" onclick="startRecognition()">&#127908;</button>
+    </div>
     <section class="planner-container">
       <header>
         <div class="logo">
@@ -90,5 +96,8 @@
     <section id="map"></section>
 
   </main>
+  <script src="./js/chatbot.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
+
