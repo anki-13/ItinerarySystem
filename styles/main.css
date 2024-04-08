@@ -38,6 +38,9 @@
   border-radius: 8px;
 }
 
+#search-places {
+  margin-right: 20px; /* Adjust this value based on your preference */
+}
 
 .chatbox-container button {
   margin-left: 10px;
