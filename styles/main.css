@@ -65,105 +65,19 @@
   color: #000b01;
 }
 
-.btn-blue:hover {
+.button:hover {
   color: #ffffff;
-  border: 0.15rem #383e57 solid;
-  background-color: #363d5a;
+  border: 0.15rem #262a3d solid;
+  background-color: #262a3d;
   cursor: pointer;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
-.btn-blue.selected {
+.button.selected {
   color: #ffffff;
-  border: 0.15rem #2c3351 solid;
-  background-color: #333b5f;
-}
-
-.btn-yellow:hover {
-  color: #ffffff;
-  border: 0.15rem #bbaf6c solid;
-  background-color: #bbaf6c;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-yellow.selected {
-  color: #ffffff;
-  border: 0.15rem #bbaf6c solid;
-  background-color: #bbaf6c;
-}
-
-.btn-green:hover {
-  color: #ffffff;
-  border: 0.15rem #56857f solid;
-  background-color: #56857f;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-green.selected {
-  color: #ffffff;
-  border: 0.15rem #56857f solid;
-  background-color: #56857f;
-}
-
-.btn-pink:hover {
-  color: #ffffff;
-  border: 0.15rem #7e5163 solid;
-  background-color: #7e5163;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-pink.selected {
-  color: #ffffff;
-  border: 0.15rem #7e5163 solid;
-  background-color: #7e5163;
-}
-
-.btn-orange:hover {
-  color: #ffffff;
-  border: 0.15rem #7e6049 solid;
-  background-color: #7e6049;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-orange.selected {
-  color: #ffffff;
-  border: 0.15rem #7e6049 solid;
-  background-color: #7e6049;
-}
-
-.btn-purple:hover {
-  color: #ffffff;
-  border: 0.15rem #9067a4 solid;
-  background-color: #9067a4;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-purple.selected {
-  color: #ffffff;
-  border: 0.15rem #9067a4 solid;
-  background-color: #9067a4;
-}
-
-.cancel-btn {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
+  border: 0.15rem #262a3d solid;
+  background-color: #262a3d;
 }
 
 .modal {
@@ -398,7 +312,7 @@
 }
 
 #apply-filter:hover, #apply-filter:active {
-  border-bottom: 2px solid #FF0266;
+  border-bottom: 2px solid #acefd1;
 }
 
 #place-num {
@@ -732,7 +646,7 @@ h4 {
 }
 
 .heart, .save {
-  background-color: #FF0266;
+  background-color: #605151;
 }
 
 .heart:hover, .save:hover {
@@ -742,7 +656,7 @@ h4 {
 .heart:active, .save:active {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: #ce0051;
+  background-color: #706067;
 }
 
 #directionsPanel {
@@ -1025,4 +939,3 @@ body, html {
 p {
   margin: 0;
 }
-
