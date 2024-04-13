@@ -1,25 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.css">
 
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=(APIKEY)&libraries=places"></script>
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm0CNKGMInNHDjK6_cb-kbGt4lMV60-DA&libraries=places"></script>
   <script type="module" src="./js/index.js"></script>
+  <script type="module" src="./js/onboarding.js"></script>
+
 
   <title>Trip Planner</title>
-  
+
 </head>
 
 <body>
+  <button class="onboarding-btn">Show Demo</button>
+  <div class="onboarding-overlay"></div>
+
+  <div class="onboarding-container">
+    <div class="content">
+      <a href="#" class="skip-btn">Skip</a>
+      <div class="dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="image">
+            <img class="overImg" src="/images/Explore.png">
+          </div>
+
+          <h3>Step 1</h3>
+          <p>
+            Above shows the start page. Select the place you want to visit and tell us the dates. We will sort the rest out!
+          </p>
+
+        </div>
+
+        <div class="step">
+          <div class="image">
+            <img class="overImg" src="/images/NewUserList.png">
+          </div>
+
+          <h3>Step 2</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipi.
+          </p>
+
+        </div>
+
+        <div class="step">
+          <div class="image">
+            <img class="overImg" src="/images/Directions.png">
+          </div>
+
+          <h3>Step 3</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipi.
+          </p>
+
+        </div>
+      </div>
+
+
+      <button class="next-btn">Next</button>
+
+    </div>
+  </div>
+
   <section class="modal" id="search-modal">
     <div class="modal-content">
       <div class="init-content-container">
-       <button class="cancel-btn" id="cancel-btn">&times;</button>
+        <button class="cancel-btn" id="cancel-btn">&times;</button>
         <div class="intro-language">
           <h1>Explore amazing destinations and plan your trip day by day</h1>
           <p>Discover popular places on the map like attraction, resturents, museum and more</p>
@@ -56,12 +118,14 @@
         </div>
         <button class="cancel-btn" id="cancel-btn">&times;</button>
         <button class="btn btn-pink show-itineraries">Existing Itineraries</button>
-        <button class="btn btn-pink show-itineraries", id="itinerary-back">Back</button>
-      </div>
+        <button class="btn btn-pink show-itineraries" , id="itinerary-back">Back</button>
+        </div>
       </header>
       <div class="planner-content">
         <div class="planner-box bucket">
-          <div class="title"><p>Place Bucket</p></div>
+          <div class="title">
+            <p>Place Bucket</p>
+          </div>
           <div class="planner-list"></div>
         </div>
       </div>
@@ -71,12 +135,18 @@
       <div class="place-overview">
         <div class="place-filter">
           <div class="filter-buttons">
-            <li class="filter-li" id="see"><a class="btn btn-blue" href="#"><i class="material-icons">local_see</i>Attraction</a></li>
-            <li class="filter-li" id="hotel"><a class="btn btn-yellow" href="#"><i class="material-icons">local_hotel</i>Hotel</a></li>
-            <li class="filter-li" id="mall"><a class="btn btn-green" href="#"><i class="material-icons">local_mall</i>Shop</a></li>
-            <li class="filter-li" id="dining"><a class="btn btn-orange" href="#"><i class="material-icons">local_dining</i>Food</a></li>
-            <li class="filter-li" id="cafe"><a class="btn btn-purple" href="#"><i class="material-icons">local_cafe</i>Cafe</a></li>
-            <li class="filter-li" id="bar"><a class="btn btn-pink" href="#"><i class="material-icons">local_bar</i>Drinks</a></li>
+            <li class="filter-li" id="see"><a class="btn btn-blue" href="#"><i
+                  class="material-icons">local_see</i>Attraction</a></li>
+            <li class="filter-li" id="hotel"><a class="btn btn-yellow" href="#"><i
+                  class="material-icons">local_hotel</i>Hotel</a></li>
+            <li class="filter-li" id="mall"><a class="btn btn-green" href="#"><i
+                  class="material-icons">local_mall</i>Shop</a></li>
+            <li class="filter-li" id="dining"><a class="btn btn-orange" href="#"><i
+                  class="material-icons">local_dining</i>Food</a></li>
+            <li class="filter-li" id="cafe"><a class="btn btn-purple" href="#"><i
+                  class="material-icons">local_cafe</i>Cafe</a></li>
+            <li class="filter-li" id="bar"><a class="btn btn-pink" href="#"><i
+                  class="material-icons">local_bar</i>Drinks</a></li>
           </div>
           <div class="action-links" id="filter-actions">
             <a id="clear-filter">Clear</a>
@@ -91,4 +161,5 @@
 
   </main>
 </body>
+
 </html>
